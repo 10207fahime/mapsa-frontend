@@ -8,17 +8,18 @@
 body {
   direction: rtl;
   font-family: BYekan;
-  background-color: aliceblue;
+  background-color: #e9f3ed;
 }
 h1 {
   text-align: center;
 }
 .bg-dark {
-  background-color: #612c7f !important;
+  background-color: #498553 !important;
 }
 .text-purple {
-  color: #461b44;
+  color: #498553;
 }
+
 .animate-charcter {
   text-transform: uppercase;
   background-image: linear-gradient(
@@ -59,14 +60,17 @@ a {
 .prd-style:hover {
   transform: scale(1.1);
 }
+.user-icon {
+  border-radius: 60px;
+}
 .bg-gradt {
-  background-image: linear-gradient(to right, #cea8b9, #edeaea);
+  background-image: linear-gradient(to right, #498553, #d7eadd);
 }
 .btn-purple {
-  background-color: #8a3984;
+  background-color: #498553;
 }
 .btn-purple:hover {
-  background-color: #461b44;
+  background-color: #67be75;
 }
 .middle-card {
   background-image: url("../img/img9.jpg");
@@ -78,7 +82,7 @@ a {
   margin-top: 50px;
 }
 .title-offer {
-  border-bottom: 2px solid rgb(129, 128, 128);
+  border-bottom: 2px solid #d7eadd;
   display: flex;
 
   margin-right: 30px;
@@ -106,7 +110,7 @@ a {
 }
 
 .footer {
-  background-color: #612c7f;
+  background-color: #498553;
   height: auto;
   margin-top: 10px;
 }
@@ -134,4 +138,93 @@ li {
 }
 .ul-size {
   font-size: 25px;
+}
+.display {
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  background: #ccc;
+  border-radius: 30px;
+}
+.card_style {
+  border: none;
+  border-radius: 30px;
+  background: #d7eadd;
+  box-shadow: 5px 3px 18px 2px rgb(42 70 60);
+}
+/* calculator style */
+.buttons {
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 60px;
+  box-shadow: 5px 4px 9px rgb(52, 179, 132);
+  margin: 5px 10px;
+}
+.column_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#clear_all {
+  background: #b32727;
+}
+#clear {
+  background: #cabf2d;
+}
+#equal {
+  background-color: #498553;
+}
+/* dice game style */
+#side-left {
+  height: 800px;
+  background-color: #4325af;
+}
+#side-right {
+  height: 800px;
+  background-color: #4325af;
+}
+#section-center {
+  height: 800px;
+  background-color: #28156b;
+}
+.title-player {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+.score-player {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+#count-score2 {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+#count-score1 {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+}
+.img2 {
+  width: 100px;
+  height: 100px;
+}
+#start-game {
+  size: 40px;
+}
+#result {
+  color: #cabf2d;
+  font-size: 50px;
 }
